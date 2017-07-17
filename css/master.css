@@ -1,0 +1,288 @@
+html {
+	font-size: 12pt;
+	border-top-width: 0.3rem;
+	border-top-color: #000;
+	border-top-style: solid;
+}
+
+body {
+	font-family: "Crimson Text", "Crimson", "Playfair Display", Helvetica;
+	max-width: 680px;
+	margin:auto;
+}
+
+#shell {
+	margin: 4rem 40px 3rem 40px !important;
+}
+
+h1#escargot {
+	font-weight: 400;
+    font-size: 3.2rem;
+    font-family: "Crimson";
+		margin-top: 8rem;
+		margin-left: -0.2rem;
+		line-height: 3rem;
+}
+
+h2#good-stories {
+	font-weight: 400;
+  margin-top: -1rem;
+	clear: both !important;
+}
+
+.divider {
+  padding-top: 1em;
+	font-size: 18pt;
+	clear: both;
+	font-weight: 200;
+	font-family: "Crimson";
+}
+
+.email {
+	color: #d33831 !important;
+}
+
+ul#home {
+    list-style-type: none;
+    margin: 0; padding: 0;
+    font-size: 1.5rem;
+    font-family: "Playfair Display";
+		line-height: 2rem;
+}
+
+ul#home li {
+    
+}
+
+article {
+	color: #444;
+	font-weight: 400;
+	font-size: 1.3rem;
+	line-height: 2rem;
+  margin-top:12rem;
+}
+
+article h1 {
+	font-size: 3.3rem;
+  letter-spacing: -0.05rem;
+	color: black;
+	line-height: 3.8rem;
+  font-family: "Playfair Display";
+	clear: both;
+}
+
+article .meta {
+
+}
+
+article .meta p {
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 1.9rem;
+    font-family: "Crimson";
+    font-weight: 400;
+    color: #111;
+}
+
+
+article h2 {
+	font-weight: 100;
+	color: #d33831;
+	margin-bottom: 0.6em;
+}
+
+article p {
+	line-height: 1.5rem;
+	font-size: 0.9em;
+}
+
+.vid-embed { 
+	position: relative; 
+	padding-bottom: 56.25%; height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+	margin-top: 3rem;
+} 
+	
+.vid-embed iframe, .embed-container object, .embed-container embed {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+/* Links */ 
+
+a:link, a:visited {
+    color: #00465c;
+    text-decoration: none;
+}
+
+
+ul#home li a span {
+    font-family: "Latin Modern Roman"
+    font-size: 1em;
+    color: grey;
+}
+
+ul#home li a:hover span { 
+    color: black;
+}
+
+a:hover {
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: #c5c5c5;
+    border-bottom-width: 1px;
+}
+
+/* Page Nav */
+
+
+header {	
+	color: black;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: left;
+	margin-left: -1.4em;
+}
+
+header .back-arrow {
+	display: inline-block;
+	font-family: serif;
+	width: 1.4em;
+}
+
+#escargot-logo {
+	display: inline-block;
+	margin-left: 1.3em;
+	width: 160px;
+}
+
+.page-nav {
+	font-size: 1.2rem;
+	position: relative;
+	height: 1.4rem;
+}
+
+.page-nav a.back-to-home {
+	display: inline-block;
+	float: left;
+}
+/*
+.page-nav ul {
+	font-weight: 400;
+	margin: 0; padding: 0;
+	margin-top: 2rem;
+	margin-left: -0.7rem;
+}*/
+/*
+.page-nav ul.links {
+	display: inline-block;
+}*/
+/*
+.page-nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+*/
+/*.page-nav ul.links li a:link, .page-nav li a:visited {
+	color: #4c7e8d;
+}
+
+.page-nav ul.links li a:hover {
+	color: #333;
+	text-decoration: none;
+	border: 0;
+}
+
+.page-nav ul.links a {
+	padding: 0.5rem 0.7rem 0.3rem 0.7rem;
+}
+
+.page-nav ul.links li.current a:link, .page-nav li.current a:visited {
+	color: #00465c;
+ }
+*/
+
+.page-nav ul.languages {
+	font-weight: 400;
+	font-size: 0.9rem;
+	text-align: right;
+	float: right;
+	margin-top: 0.3rem;
+}
+
+
+.page-nav ul.languages li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.page-nav ul.languages li a:link, .page-nav ul.languages li a:visited {
+	color: #9f9f9f;
+}
+
+.page-nav ul.languages li.current a:link, .page-nav ul.languages li.current a:visited{
+	color: #d33831;
+}
+
+/* Listing */
+ul#listing li .type {
+	display:block;
+}
+
+ul#listing {
+	list-style-type: none;
+	margin: 2rem 0;
+	padding: 0;
+	font-size: 1.8rem;
+}
+
+ul#listing li {
+	margin: none;
+	margin: 1rem 0;
+}
+
+ul#listing .type {
+	font-size: 1.1rem;
+	color: #444;
+	font-family: "Crimson";
+	font-weight: 200;
+}
+
+
+.profile img {
+	float: left;
+    	height: 200px;
+	margin: 1em 1.5em 1.5em 0;
+}
+
+.profile p {
+
+}
+
+.profile {
+	display: block;
+	clear: both !important;
+	padding-top: 1em;
+}
+
+
+/* Home Nav */
+
+ul.home-languages {
+	list-style-type: none;
+	margin: 2rem 0 4rem 0; padding: 0;
+}
+
+ul.home-languages li a:link, ul.home-languages li a:visited {
+	float: left;
+	margin-right: 10px;
+	color: #9f9f9f;
+}
+
+ul.home-languages li.current a:link, ul.home-languages li.current a:visited {
+	color: #d33831;
+}

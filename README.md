@@ -1,2 +1,2 @@
-# escargot.is
-Public-facing HTML for Escargot.is
+# escargot-public
+Public-facing static website for Escargot, temporary.
